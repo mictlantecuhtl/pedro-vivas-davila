@@ -1,0 +1,42 @@
+from math import *
+import numpy as np
+import matplotlib . pyplot as plt
+def funcion1(x):
+    return x**3-x-1
+def funcion2(x):
+    return 
+    # Ingreso datos de entrada para los diferentes métodos a trabajar
+a = 1
+b = 2
+
+# guarda valores iniciales
+p0 = a
+b0 = b
+
+#guarda valores iniciales del error y del número de iteraciones
+tol = 0.0001 #float(input("Ingrese el valor de la tolerancia: "))
+nmax = 100 #float(input("Ingrese el número máximo de iteraciones: "))
+niter = 0
+# Método de punto fijo
+
+
+#Evaluacion de la función g(x)
+fa = funcion1(a)
+fb = funcion1(b)
+
+#Evaluacion de la funcion f(x)
+fa = funcion2(a)
+fb = funcion2(b)
+
+print("# iter\t\t a \t\t f(a) \t\t b \t\t f(b) \t\t m \t\t f(m) \t\t error")
+print("{0} \t\t {1:6.4f} \t {2:6.4f} \t {3:6.4f} \t {4:6.4f} \t {5:6.4f} \t {6:6.4f} \t {7:6.4f}".format(niter, a0, fa, b0, fb, m, fm, error ))
+
+# ciclo iterativo
+while niter < nmax:
+    p0= funcion2(a)
+
+    if a-p0< tol:
+      p0=a
+    
+    niter += 1
+    print("{0} \t\t {1:6.6f} \t {2:6.6f} \t {3:6.6f} \t {4:6.6f} \t {5:6.6f} \t {6:6.6f}}".format(niter, a, fa, b, fb, m, fm,  
