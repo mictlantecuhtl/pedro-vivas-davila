@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+import numpy as np
+k=np.log(31-21/29-21)
+x=37
+t=-(1/k)*np.log(37-21/31-21)
+#inciso a
+  s=0
+t=s
+t=s+1
+y=(37-s-1/k)*np.exp(-(k*t))+1/k
+#inciso b
